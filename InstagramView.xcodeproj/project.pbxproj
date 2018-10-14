@@ -8,20 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		24309F3E21734CB300CC2139 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24309F3D21734CB300CC2139 /* AppDelegate.swift */; };
-		24309F4021734CB300CC2139 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24309F3F21734CB300CC2139 /* ViewController.swift */; };
 		24309F4321734CB300CC2139 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24309F4121734CB300CC2139 /* Main.storyboard */; };
 		24309F4521734CB800CC2139 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24309F4421734CB800CC2139 /* Assets.xcassets */; };
 		24309F4821734CB800CC2139 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24309F4621734CB800CC2139 /* LaunchScreen.storyboard */; };
+		24309F5121734D2E00CC2139 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 24309F5021734D2E00CC2139 /* libsqlite3.tbd */; };
+		24309F5321734D7900CC2139 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 24309F5221734D7900CC2139 /* libz.tbd */; };
+		24309F5521734DAA00CC2139 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24309F5421734DAA00CC2139 /* AudioToolbox.framework */; };
+		24309F5721734DBC00CC2139 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24309F5621734DBC00CC2139 /* CFNetwork.framework */; };
+		24309F5921734DD000CC2139 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24309F5821734DD000CC2139 /* CoreGraphics.framework */; };
+		24309F5B21734DDF00CC2139 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24309F5A21734DDF00CC2139 /* CoreLocation.framework */; };
+		24309F5D21734DEF00CC2139 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24309F5C21734DEF00CC2139 /* QuartzCore.framework */; };
+		24309F5F21734DFF00CC2139 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24309F5E21734DFF00CC2139 /* Security.framework */; };
+		24309F6121734E1B00CC2139 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24309F6021734E1B00CC2139 /* StoreKit.framework */; };
+		24309F6321734E2E00CC2139 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24309F6221734E2E00CC2139 /* SystemConfiguration.framework */; };
+		24309F6621734F5900CC2139 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24309F6421734F5900CC2139 /* Parse.framework */; };
+		24309F6721734F5A00CC2139 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24309F6521734F5900CC2139 /* Bolts.framework */; };
+		24309F6B21739BE900CC2139 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24309F6A21739BE900CC2139 /* SignUpViewController.swift */; };
+		24309F6D21739C1300CC2139 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24309F6C21739C1300CC2139 /* LogInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		24309F3A21734CB300CC2139 /* InstagramView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24309F3D21734CB300CC2139 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		24309F3F21734CB300CC2139 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		24309F4221734CB300CC2139 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24309F4421734CB800CC2139 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24309F4721734CB800CC2139 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24309F4921734CB800CC2139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24309F5021734D2E00CC2139 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		24309F5221734D7900CC2139 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		24309F5421734DAA00CC2139 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		24309F5621734DBC00CC2139 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		24309F5821734DD000CC2139 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		24309F5A21734DDF00CC2139 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		24309F5C21734DEF00CC2139 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		24309F5E21734DFF00CC2139 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		24309F6021734E1B00CC2139 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		24309F6221734E2E00CC2139 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		24309F6421734F5900CC2139 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		24309F6521734F5900CC2139 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		24309F6A21739BE900CC2139 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		24309F6C21739C1300CC2139 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +55,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24309F6321734E2E00CC2139 /* SystemConfiguration.framework in Frameworks */,
+				24309F6121734E1B00CC2139 /* StoreKit.framework in Frameworks */,
+				24309F5F21734DFF00CC2139 /* Security.framework in Frameworks */,
+				24309F6721734F5A00CC2139 /* Bolts.framework in Frameworks */,
+				24309F5D21734DEF00CC2139 /* QuartzCore.framework in Frameworks */,
+				24309F5B21734DDF00CC2139 /* CoreLocation.framework in Frameworks */,
+				24309F5921734DD000CC2139 /* CoreGraphics.framework in Frameworks */,
+				24309F6621734F5900CC2139 /* Parse.framework in Frameworks */,
+				24309F5721734DBC00CC2139 /* CFNetwork.framework in Frameworks */,
+				24309F5521734DAA00CC2139 /* AudioToolbox.framework in Frameworks */,
+				24309F5321734D7900CC2139 /* libz.tbd in Frameworks */,
+				24309F5121734D2E00CC2139 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +76,11 @@
 		24309F3121734CB300CC2139 = {
 			isa = PBXGroup;
 			children = (
+				24309F6521734F5900CC2139 /* Bolts.framework */,
+				24309F6421734F5900CC2139 /* Parse.framework */,
 				24309F3C21734CB300CC2139 /* InstagramView */,
 				24309F3B21734CB300CC2139 /* Products */,
+				24309F4F21734D2D00CC2139 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +95,48 @@
 		24309F3C21734CB300CC2139 /* InstagramView */ = {
 			isa = PBXGroup;
 			children = (
+				24309F6E21739C8700CC2139 /* Controller */,
 				24309F3D21734CB300CC2139 /* AppDelegate.swift */,
-				24309F3F21734CB300CC2139 /* ViewController.swift */,
 				24309F4121734CB300CC2139 /* Main.storyboard */,
 				24309F4421734CB800CC2139 /* Assets.xcassets */,
 				24309F4621734CB800CC2139 /* LaunchScreen.storyboard */,
 				24309F4921734CB800CC2139 /* Info.plist */,
 			);
 			path = InstagramView;
+			sourceTree = "<group>";
+		};
+		24309F4F21734D2D00CC2139 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24309F6221734E2E00CC2139 /* SystemConfiguration.framework */,
+				24309F6021734E1B00CC2139 /* StoreKit.framework */,
+				24309F5E21734DFF00CC2139 /* Security.framework */,
+				24309F5C21734DEF00CC2139 /* QuartzCore.framework */,
+				24309F5A21734DDF00CC2139 /* CoreLocation.framework */,
+				24309F5821734DD000CC2139 /* CoreGraphics.framework */,
+				24309F5621734DBC00CC2139 /* CFNetwork.framework */,
+				24309F5421734DAA00CC2139 /* AudioToolbox.framework */,
+				24309F5221734D7900CC2139 /* libz.tbd */,
+				24309F5021734D2E00CC2139 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24309F6E21739C8700CC2139 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24309F6F21739CA700CC2139 /* SignUpAndLogIn */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		24309F6F21739CA700CC2139 /* SignUpAndLogIn */ = {
+			isa = PBXGroup;
+			children = (
+				24309F6A21739BE900CC2139 /* SignUpViewController.swift */,
+				24309F6C21739C1300CC2139 /* LogInViewController.swift */,
+			);
+			path = SignUpAndLogIn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +210,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24309F4021734CB300CC2139 /* ViewController.swift in Sources */,
+				24309F6B21739BE900CC2139 /* SignUpViewController.swift in Sources */,
 				24309F3E21734CB300CC2139 /* AppDelegate.swift in Sources */,
+				24309F6D21739C1300CC2139 /* LogInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +358,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5863SQU82D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = InstagramView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +380,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5863SQU82D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = InstagramView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
