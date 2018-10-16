@@ -25,6 +25,9 @@
 		24309F6721734F5A00CC2139 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24309F6521734F5900CC2139 /* Bolts.framework */; };
 		24309F6B21739BE900CC2139 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24309F6A21739BE900CC2139 /* SignUpViewController.swift */; };
 		24309F6D21739C1300CC2139 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24309F6C21739C1300CC2139 /* LogInViewController.swift */; };
+		24309F7221762C5A00CC2139 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24309F7121762C5A00CC2139 /* ProfileViewController.swift */; };
+		24309F7521762CB400CC2139 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24309F7421762CB400CC2139 /* ProfileHeaderView.swift */; };
+		24309F7721762FC300CC2139 /* ProfilePictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24309F7621762FC300CC2139 /* ProfilePictureCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +51,9 @@
 		24309F6521734F5900CC2139 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		24309F6A21739BE900CC2139 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		24309F6C21739C1300CC2139 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		24309F7121762C5A00CC2139 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		24309F7421762CB400CC2139 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		24309F7621762FC300CC2139 /* ProfilePictureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePictureCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,7 @@
 		24309F3C21734CB300CC2139 /* InstagramView */ = {
 			isa = PBXGroup;
 			children = (
+				24309F7321762C7B00CC2139 /* View */,
 				24309F6E21739C8700CC2139 /* Controller */,
 				24309F3D21734CB300CC2139 /* AppDelegate.swift */,
 				24309F4121734CB300CC2139 /* Main.storyboard */,
@@ -125,6 +132,7 @@
 		24309F6E21739C8700CC2139 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				24309F7021762C2D00CC2139 /* Profile */,
 				24309F6F21739CA700CC2139 /* SignUpAndLogIn */,
 			);
 			path = Controller;
@@ -137,6 +145,23 @@
 				24309F6C21739C1300CC2139 /* LogInViewController.swift */,
 			);
 			path = SignUpAndLogIn;
+			sourceTree = "<group>";
+		};
+		24309F7021762C2D00CC2139 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				24309F7121762C5A00CC2139 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		24309F7321762C7B00CC2139 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				24309F7421762CB400CC2139 /* ProfileHeaderView.swift */,
+				24309F7621762FC300CC2139 /* ProfilePictureCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,8 +235,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24309F7721762FC300CC2139 /* ProfilePictureCell.swift in Sources */,
 				24309F6B21739BE900CC2139 /* SignUpViewController.swift in Sources */,
 				24309F3E21734CB300CC2139 /* AppDelegate.swift in Sources */,
+				24309F7521762CB400CC2139 /* ProfileHeaderView.swift in Sources */,
+				24309F7221762C5A00CC2139 /* ProfileViewController.swift in Sources */,
 				24309F6D21739C1300CC2139 /* LogInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

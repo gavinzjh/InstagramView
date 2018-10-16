@@ -19,9 +19,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         let parseConfig = ParseClientConfiguration { (ParseMutableClientConfiguration) in
-            ParseMutableClientConfiguration.applicationId = "instagramViewIDMobileComputingProgrammingProject"
-            ParseMutableClientConfiguration.clientKey = "instagramViewKey3254435gfsdhgfuurtdygs345346"
-            ParseMutableClientConfiguration.server = "http://instagramview.herokuapp.com/parse"
+            ParseMutableClientConfiguration.applicationId = "abE3Db6PhDVeIuNSp4s49GP0GPP0z1lG0x0KYTYh"
+            ParseMutableClientConfiguration.clientKey = "DXjmm0JzTqA756Kz5stW98MmzdRsNvAQwzk6nhsl"
+            ParseMutableClientConfiguration.server = "https://parseapi.back4app.com/"
         }
         Parse.initialize(with: parseConfig)
         
