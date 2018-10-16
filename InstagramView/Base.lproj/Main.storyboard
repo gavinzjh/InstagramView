@@ -12,7 +12,7 @@
         <!--Log In View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LogInViewController" customModule="InstagramView" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LogInViewController" id="BYZ-38-t0r" customClass="LogInViewController" customModule="InstagramView" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -289,7 +289,13 @@
                             <outlet property="delegate" destination="7NX-4Y-Lnw" id="V6t-S8-OY2"/>
                         </connections>
                     </collectionView>
-                    <navigationItem key="navigationItem" id="Rxq-cQ-aGb"/>
+                    <navigationItem key="navigationItem" id="Rxq-cQ-aGb">
+                        <barButtonItem key="rightBarButtonItem" systemItem="stop" id="51e-km-P8j">
+                            <connections>
+                                <action selector="logoutButtonPressed:" destination="7NX-4Y-Lnw" id="Az6-iY-wL5"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bya-2d-9mF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

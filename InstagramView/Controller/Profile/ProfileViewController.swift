@@ -57,6 +57,20 @@ class ProfileViewController: UICollectionViewController {
         }
     }
     
+    @IBAction func logoutButtonPressed(_ sender: Any) {
+        PFUser.logOutInBackground { (error) in
+            if error == nil {
+                UserDefaults.standard.removeObject(forKey: "username")
+                UserDefaults.standard.synchronize()
+                
+                let loginViewController = self.storyboard?.instantiateViewController(withIdentifier: "LogInViewController") as! LogInViewController
+                let appDelegate: AppDelegate = UIApplication.shared.delegate as! AppDelegate
+                appDelegate.window?.rootViewController = loginViewController
+            }
+        }
+    }
+    
+    
     override func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
         let header = collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionElementKindSectionHeader, withReuseIdentifier: "ProfileHeader", for: indexPath) as! ProfileHeaderView
         header.usernameLabel.text = PFUser.current()?.username!
